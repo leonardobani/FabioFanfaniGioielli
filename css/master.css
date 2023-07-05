@@ -103,9 +103,7 @@ CONTATTI.HTML
         margin-left: auto;
         margin-right: auto;
     }
-}
 
-@media only screen and (max-width: 600px) {
     .socialbutton{
         width: 150px;
         height: 210px;
