@@ -105,7 +105,20 @@ CONTATTI.HTML
     }
 }
 
-.socialbutton{
-    width: 210px;
-    height: 200px;
+@media only screen and (max-width: 600px) {
+    .socialbutton{
+        width: 150px;
+        height: 210px;
+    }
+
+    .socialbuttoncontainer{
+        width: 50%;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .socialbutton{
+        width: 210px;
+        height: 200px;
+    }
 }

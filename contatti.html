@@ -26,24 +26,45 @@
 <body>
 
   <!-- NavBar -->
-  <div class="container">
-    <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
-      <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
-        <svg class="bi me-2" width="40" height="32"> <img class="Logo" src="Icons/Logo Icon.jpg" alt="Logo">
-          <use xlink:href="#"></use>
-        </svg>
-        <span class="fs-4">Fabio Fanfani</span>
-      </a>
-      <ul class="nav nav-pills navbarcontainer">
-        <li class="nav-item"><a href="index.html" class="nav-link" style="color: gold;">Home</a></li>
-        <li class="nav-item"><a href="#" class="nav-link" style="color: gold;">Collezioni</a></li>
-        <li class="nav-item"><a href="#" class="nav-link" style="color: gold;">Pricing</a></li>
-        <li class="nav-item"><a href="#" class="nav-link" style="color: gold;">FAQs</a></li>
-        <li class="nav-item"><a href="contatti.html" class="nav-link active" style="background-color: gold;"
-            aria-current="page">Contatti</a></li>
-      </ul>
-    </header>
-  </div>
+  <nav class="navbar bg-body-tertiary fixed-top">
+    <div class="container-fluid">
+      <img src="Icons/Logo Icon.svg" alt="Logo" class="logoimage">
+      <a class="navbar-brand" href="index.html">Fabio Fanfani</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Fabio Fanfani</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home Page</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contatti.html">Contatti</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Collezioni
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Acqua</a></li>
+                <li><a class="dropdown-item" href="#">Aria</a></li>
+                <li><a class="dropdown-item" href="#">Terra</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Mostra tutte</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
 
   <!-- Hero -->
   <div class="position-relative text-center">
@@ -129,45 +150,15 @@
 
 
   <!-- Footer -->
-  <footer class="py-5">
-    <div class="row Center">
-      <div class="col-6 col-md-2 mb-3">
-        <h5>Section</h5>
-        <ul class="nav flex-column">
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
-        </ul>
-      </div>
 
-      <div class="col-6 col-md-2 mb-3 FooterSection">
-        <h5>Section</h5>
-        <ul class="nav flex-column">
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
-        </ul>
-      </div>
-
-      <div class="col-6 col-md-2 mb-3 FooterSection">
-        <h5>Section</h5>
-        <ul class="nav flex-column">
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
-        </ul>
-      </div>
-    </div>
-
-    <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
-      <p>© 2023 FabioFanfani. All rights reserved.</p>
-    </div>
+  <footer class="py-3 my-4">
+    <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+      <li class="nav-item"><a href="index.html" class="nav-link px-2 text-body-secondary footertext">Home page</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary footertext">Collezioni</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary footertext">FAQs</a></li>
+      <li class="nav-item"><a href="contatti.html" class="nav-link px-2 text-body-secondary footertext">Contatti</a></li>
+    </ul>
+    <p class="text-center text-body-secondary footertext">© 2023 Fabio Fanfani</p>
   </footer>
 
 </body>
