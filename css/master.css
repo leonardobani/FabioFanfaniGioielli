@@ -15,6 +15,10 @@ GENERAL
     }
 } 
 
+.logoimage{
+    max-width: 50px;
+}
+
 footer {
     max-width: 80%;
     text-align: center;
