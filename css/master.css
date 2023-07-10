@@ -143,3 +143,9 @@ COLLEZIONI.HTML
     background-size: cover;
     background-position: center;
 }
+
+@media only screen and (min-width: 1200px) {
+    .carouseltitle{
+        font-size: 10rem;
+    }   
+}
