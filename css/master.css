@@ -47,7 +47,7 @@ INDEX.HTML
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-between;
-
+    max-width: 80%;
 }
 
 
