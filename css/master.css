@@ -57,6 +57,19 @@ INDEX.HTML
         margin-right: auto;
     }
 
+    .fotol{
+        display: none;
+    }
+
+    .fotor{
+        display: none;
+    }
+
+    .fotoc{
+        display: block;
+        margin-top: 100px;
+    }
+
     .Center {
         display: grid;
     }
