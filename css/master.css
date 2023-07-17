@@ -25,6 +25,10 @@ footer {
     vertical-align: inherit;
 }
 
+.card{
+    border-style: none;
+}
+
 /* 
 -----------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------
@@ -150,7 +154,7 @@ COLLEZIONI.HTML
  */
 
 .collectioncarousel {
-    height: 100vh;
+    height: 85vh;
     width: 100%;
     background-size: cover;
     background-position: center;
