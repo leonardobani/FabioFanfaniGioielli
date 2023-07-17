@@ -25,7 +25,7 @@ footer {
     vertical-align: inherit;
 }
 
-.card{
+.card {
     border-style: none;
 }
 
@@ -61,15 +61,15 @@ INDEX.HTML
         margin-right: auto;
     }
 
-    .fotol{
+    .fotol {
         display: none;
     }
 
-    .fotor{
+    .fotor {
         display: none;
     }
 
-    .fotoc{
+    .fotoc {
         display: block;
         margin-top: 100px;
     }
@@ -161,7 +161,7 @@ COLLEZIONI.HTML
 }
 
 @media only screen and (min-width: 1200px) {
-    .carouseltitle{
+    .carouseltitle {
         font-size: 10rem;
-    }   
+    }
 }
