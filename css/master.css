@@ -56,9 +56,10 @@ INDEX.HTML
 
 @media only screen and (max-width: 600px) {
     .card {
-        width: 75%;
         margin-left: auto;
         margin-right: auto;
+        justify-content: center;
+        width: fit-content;
     }
 
     .fotol {
