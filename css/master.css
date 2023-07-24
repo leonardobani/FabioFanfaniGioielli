@@ -74,6 +74,9 @@ INDEX.HTML
         display: none;
     }
 
+    .fotoc{
+        display: none;
+    }
 
     .Center {
         display: grid;
