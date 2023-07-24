@@ -57,7 +57,7 @@ INDEX.HTML
     justify-content: space-between;
 }
 
-
+/* mobile */
 @media only screen and (max-width: 600px) {
     .card {
         margin-left: auto;
@@ -74,10 +74,6 @@ INDEX.HTML
         display: none;
     }
 
-    .fotoc {
-        display: block;
-        margin-top: 100px;
-    }
 
     .Center {
         display: grid;
@@ -87,12 +83,21 @@ INDEX.HTML
         margin: 100px 0 0 0;
     }
 
+    .DesktopOn{
+        display: none;
+    }
+
 }
 
+/* Desktop */
 @media only screen and (min-width: 600px) {
     .card {
         width: 25vw;
         display: inline-block;
+    }
+
+    .MobileOn{
+        display: none;
     }
 }
 
